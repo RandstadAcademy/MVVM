@@ -17,9 +17,9 @@
         <Label x:Name="lblName" Content="Name" HorizontalAlignment="Left" Margin="21,108,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblBasicSalary" Content="Basic Salary" HorizontalAlignment="Left" Margin="21,164,0,0" VerticalAlignment="Top"/>
 
-        <TextBox x:Name="txtID" HorizontalAlignment="Left" Height="23" Margin="132,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="{Binding AssignmentID}"/>
-        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="23" Margin="132,111,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Text="{Binding AssignmentName}"/>
-        <TextBox x:Name="txtBasicSalary" HorizontalAlignment="Left" Height="23" Margin="132,167,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Text="{Binding BasicSalary}"/>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Height="23" Margin="132,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="{Binding AssignmentID, Mode=TwoWay}"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="23" Margin="132,111,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Text="{Binding AssignmentName, Mode=TwoWay }"/>
+        <TextBox x:Name="txtBasicSalary" HorizontalAlignment="Left" Height="23" Margin="132,167,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Text="{Binding BasicSalary, Mode=TwoWay}"/>
 
     </Grid>
 </Window>
