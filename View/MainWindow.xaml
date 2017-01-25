@@ -1,0 +1,19 @@
+﻿<Window x:Class="View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:View"
+        mc:Ignorable="d"
+        Title="My first WPF application" Height="500" Width="800">
+    <Grid>
+        <Menu x:Name="menu" Height="37" VerticalAlignment="Top">
+            <MenuItem x:Name="Menu1" Header="_Menu1">
+                <MenuItem x:Name="Companies" Header="_Companies" Click="Companies_Click"/>
+                <MenuItem x:Name="Persons" Header="_Persons" Click="Persons_Click"/>
+                <MenuItem x:Name="Assignments" Header="_Assignments" Click="Assignments_Click"/>
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>
