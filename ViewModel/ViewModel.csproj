@@ -45,8 +45,10 @@
     <Compile Include="AssignmentViewModel.cs" />
     <Compile Include="AssignmentViewModelCommand.cs" />
     <Compile Include="CompanyViewModel.cs" />
+    <Compile Include="EmployeesViewModel.cs" />
     <Compile Include="PersonViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModelBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Model\Model.csproj">

@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="AssignmentModel.cs" />
     <Compile Include="CompanyModel.cs" />
+    <Compile Include="EmployeeModel.cs" />
     <Compile Include="PersonModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
