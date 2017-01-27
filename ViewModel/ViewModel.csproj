@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssignmentViewModel.cs" />
+    <Compile Include="AssignmentViewModelCommand.cs" />
     <Compile Include="CompanyViewModel.cs" />
     <Compile Include="PersonViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
