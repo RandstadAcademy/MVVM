@@ -21,7 +21,7 @@
         <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="23" Margin="132,111,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Text="{Binding AssignmentName, Mode=TwoWay }"/>
         <TextBox x:Name="txtBasicSalary" HorizontalAlignment="Left" Height="23" Margin="132,167,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Text="{Binding BasicSalary, Mode=TwoWay}"/>
         
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="105,228,0,0" VerticalAlignment="Top" Width="75" Command="{Binding Source=}"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="105,228,0,0" VerticalAlignment="Top" Width="75" Command="{Binding ACommand}"/>
 
     </Grid>
 </Window>

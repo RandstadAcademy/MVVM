@@ -7,7 +7,25 @@ using System.Windows.Input;
 
 namespace ViewModel
 {
-    public class AssignmentViewModelCommand : ICommand
+    public class TestButtonCommand : ICommand
+    {
+        public event EventHandler CanExecuteChanged;
+
+
+        public bool CommandStatus = true;
+
+        public bool CanExecute(object parameter)
+        {
+            return CommandStatus;
+        }
+
+        public void Execute(object parameter)
+        {
+            System.Diagnostics.Debug.Write("AssignmentViewModelCommando:Execute");
+        }
+    }
+
+    public class AnotherCommand : ICommand
     {
         public event EventHandler CanExecuteChanged;
 
@@ -18,7 +36,7 @@ namespace ViewModel
 
         public void Execute(object parameter)
         {
-            
+            throw new NotImplementedException();
         }
     }
 }

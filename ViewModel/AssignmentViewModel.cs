@@ -13,6 +13,7 @@ namespace ViewModel
         private AssignmentModel _AssignmentModel = new AssignmentModel();
 
 
+
         public AssignmentViewModel()
         {
             _AssignmentModel.AssignmentID = 20;
@@ -60,5 +61,18 @@ namespace ViewModel
         }
 
 
+        private TestButtonCommand _ACommand = new TestButtonCommand();
+        public TestButtonCommand ACommand
+        {
+            get
+            {
+                return _ACommand;
+            }
+
+            set
+            {
+                _ACommand = value;
+            }
+        }
     }
 }
